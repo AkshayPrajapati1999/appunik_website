@@ -3,7 +3,7 @@ import img2 from "../../../images/illustations/Portfolio 1.png";
 import img1 from "../../../images/illustations/Portfolio 2.png";
 import Banner from '../../../component/banner';
 import ServiceCounter from '../../../component/serviceCounter';
-import { IServiceApp, IServiceBanner, IServiceCounter, IServiceInfo } from '../../../models/service.model';
+import {  IServiceBanner, IServiceCounter, IServiceInfo } from '../../../models/service.model';
 import isoSvg from "../../../images/iosInfo.svg";
 import ServiceInfo from "../../../component/serviceInfo";
 
@@ -68,31 +68,6 @@ function NestDevelopment() {
           subTitle:"",
           buttonInfo: "Hire our Dedicated Devlopers",
           image: isoSvg.src,
-        },
-      ];
-      const serviceApp: IServiceApp[] = [
-        {
-          title: "Our Expertise With Nest Development Technology ",
-          appheading: "Nest Development Tools",
-          serviceImages: [
-            {
-              image: AndroidStudio.src,
-              info:"Android Studio"
-            },{
-              image: Xcode.src,
-              info:"Android SDK"
-            },{
-              image: Adobe.src,
-              info:"Adobe XD"
-            },{
-              image: Figma.src,
-              info:"Figma"
-            },{
-              image: TitaniumXd.src,
-              info:" Titanium Mobile SDK"
-            }
-          
-          ],
         },
       ];
   return (

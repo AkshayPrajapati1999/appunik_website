@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../../../component/banner";
 import ServiceCounter from "../../../component/serviceCounter";
-import { IServiceApp, IServiceBanner, IServiceCounter, IServiceInfo } from "../../../models/service.model";
+import {  IServiceBanner, IServiceCounter, IServiceInfo } from "../../../models/service.model";
 import img2 from "../../../images/illustations/Portfolio 1.png";
 import img1 from "../../../images/illustations/Portfolio 2.png";
 import icon1 from "../../../images/icons/Icons.png";
@@ -76,31 +76,7 @@ function AimlDevelopment() {
       image: isoSvg.src,
     },
   ];
-  const serviceApp: IServiceApp[] = [
-    {
-      title: "Our Expertise With AI/Ml Development Technology ",
-      appheading: "AI/Ml Development Tools",
-      serviceImages: [
-        {
-          image: AndroidStudio.src,
-          info:"Android Studio"
-        },{
-          image: Xcode.src,
-          info:"Android SDK"
-        },{
-          image: Adobe.src,
-          info:"Adobe XD"
-        },{
-          image: Figma.src,
-          info:"Figma"
-        },{
-          image: TitaniumXd.src,
-          info:" Titanium Mobile SDK"
-        }
-      
-      ],
-    },
-  ];
+  
   return (
     <div>
       <Banner banner={banner}></Banner>

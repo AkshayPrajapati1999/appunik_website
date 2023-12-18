@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../../../component/banner";
 import ServiceCounter from "../../../component/serviceCounter";
 import {
-  IServiceApp,
+  
   IServiceBanner,
   IServiceCounter,
   IServiceInfo,
@@ -104,34 +104,6 @@ function ReactNativeDevelopment() {
       subTitle: "",
       buttonInfo: "Hire our Dedicated Devlopers",
       image: isoSvg.src,
-    },
-  ];
-  const serviceApp: IServiceApp[] = [
-    {
-      title: "Our Expertise With React-Native Development Technology ",
-      appheading: "React-Native Development Tools",
-      serviceImages: [
-        {
-          image: AndroidStudio.src,
-          info: "Android Studio",
-        },
-        {
-          image: Xcode.src,
-          info: "Android SDK",
-        },
-        {
-          image: Adobe.src,
-          info: "Adobe XD",
-        },
-        {
-          image: Figma.src,
-          info: "Figma",
-        },
-        {
-          image: TitaniumXd.src,
-          info: " Titanium Mobile SDK",
-        },
-      ],
     },
   ];
   return (

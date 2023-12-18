@@ -1,5 +1,5 @@
 import Banner from "../../../component/banner"
-import { IServiceApp, IServiceBanner, IServiceCounter, IServiceInfo } from "../../../models/service.model";
+import {  IServiceBanner, IServiceCounter, IServiceInfo } from "../../../models/service.model";
 import img2 from "../../../images/illustations/Portfolio 1.png";
 import img1 from "../../../images/illustations/Portfolio 2.png";
 import ServiceCounter from "../../../component/serviceCounter";
@@ -68,31 +68,6 @@ function IonicDevelopment() {
           subTitle:"",
           buttonInfo: "Hire our Dedicated Devlopers",
           image: isoSvg.src,
-        },
-      ];
-      const serviceApp: IServiceApp[] = [
-        {
-          title: "Our Expertise With Ionic Development Technology ",
-          appheading: "Ionic Development Tools",
-          serviceImages: [
-            {
-              image: AndroidStudio.src,
-              info:"Android Studio"
-            },{
-              image: Xcode.src,
-              info:"Android SDK"
-            },{
-              image: Adobe.src,
-              info:"Adobe XD"
-            },{
-              image: Figma.src,
-              info:"Figma"
-            },{
-              image: TitaniumXd.src,
-              info:" Titanium Mobile SDK"
-            }
-          
-          ],
         },
       ];
   return (

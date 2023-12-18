@@ -3,7 +3,7 @@ import img2 from "../../../images/illustations/Portfolio 1.png";
 import img1 from "../../../images/illustations/Portfolio 2.png";
 import Banner from '../../../component/banner';
 import ServiceCounter from '../../../component/serviceCounter';
-import { IServiceApp, IServiceBanner, IServiceCounter, IServiceInfo } from '../../../models/service.model';
+import {  IServiceBanner, IServiceCounter, IServiceInfo } from '../../../models/service.model';
 import isoSvg from "../../../images/iosInfo.svg";
 import ServiceInfo from "../../../component/serviceInfo";
 
@@ -71,31 +71,7 @@ function RubyDevelopment() {
           image: isoSvg.src,
         },
       ];
-      const serviceApp: IServiceApp[] = [
-        {
-          title: "Our Expertise With Ruby Development Technology ",
-          appheading: "Ruby Development Tools",
-          serviceImages: [
-            {
-              image: AndroidStudio.src,
-              info:"Android Studio"
-            },{
-              image: Xcode.src,
-              info:"Android SDK"
-            },{
-              image: Adobe.src,
-              info:"Adobe XD"
-            },{
-              image: Figma.src,
-              info:"Figma"
-            },{
-              image: TitaniumXd.src,
-              info:" Titanium Mobile SDK"
-            }
-          
-          ],
-        },
-      ];
+     
   return (
     <>
     <Banner banner={banner}/>

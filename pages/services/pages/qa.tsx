@@ -1,6 +1,6 @@
 import Banner from "../../../component/banner";
 import ServiceCounter from "../../../component/serviceCounter";
-import { IServiceApp, IServiceBanner, IServiceCounter, IServiceInfo } from "../../../models/service.model";
+import {  IServiceBanner, IServiceCounter, IServiceInfo } from "../../../models/service.model";
 import img2 from "../../../images/pages illustration/Expert Quality Assurance Company for Your Business.png";
 import img1 from "../../../images/illustations/Portfolio 2.png";
 import icon1 from "../../../images/icons/Icons.png";
@@ -88,31 +88,6 @@ function Qa() {
       subTitle:"",
       buttonInfo: "Hire our Dedicated Devlopers",
       image: isoSvg.src,
-    },
-  ];
-  const serviceApp: IServiceApp[] = [
-    {
-      title: "Our Expertise With Quality Assurance Development Technology",
-      appheading: "Quality Assurance Tools",
-      serviceImages: [
-        {
-          image: AndroidStudio.src,
-          info:"Android Studio"
-        },{
-          image: Xcode.src,
-          info:"Android SDK"
-        },{
-          image: Adobe.src,
-          info:"Adobe XD"
-        },{
-          image: Figma.src,
-          info:"Figma"
-        },{
-          image: TitaniumXd.src,
-          info:" Titanium Mobile SDK"
-        }
-      
-      ],
     },
   ];
   return (

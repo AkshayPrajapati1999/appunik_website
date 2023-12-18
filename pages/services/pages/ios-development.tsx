@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../../../component/banner";
 import ServiceCounter from "../../../component/serviceCounter";
 import {
-  IServiceApp,
+  
   IServiceBanner,
   IServiceCounter,
   IServiceInfo,
@@ -100,31 +100,6 @@ function iosDevelopment() {
       subTitle: "",
       buttonInfo: "Hire our Dedicated Devlopers",
       image: isoSvg.src,
-    },
-  ];
-  const serviceApp: IServiceApp[] = [
-    {
-      title: "Our Expertise With Ios Development Technology ",
-      appheading: "Ios Development Tools",
-      serviceImages: [
-        {
-          image: Zeplin.src,
-          info:"Zeplin"
-        },{
-          image: Xcode.src,
-          info:"Xcode"
-        },{
-          image: Adobe.src,
-          info:"Adobe XD"
-        },{
-          image: Figma.src,
-          info:"Figma"
-        },{
-          image: TitaniumXd.src,
-          info:"Titanium SDK"
-        }
-      
-      ],
     },
   ];
   return (
