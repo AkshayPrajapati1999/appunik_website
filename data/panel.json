@@ -1,0 +1,145 @@
+{
+    "panelList":[
+      {
+        "image": "/list icon/ios_app.svg",
+        "imageInfo": "Ios Development",
+        "list": "Ios Development",
+        "to": "/services/pages/ios-development"
+      },
+      {
+        "image": "/list icon/android.svg",
+        "imageInfo": "Android Development",
+        "list": "Android  Development",
+        "to": "/services/pages/android-development"
+      },
+      {
+        "image": "/list icon/flu_app.svg",
+        "imageInfo": "Flutter Development",
+        "list": "Flutter Development",
+        "to": "/services/pages/flutter-development"
+      },
+      {
+        "image": "/list icon/react_app.svg",
+        "imageInfo": "React-native App Development",
+        "list": "React-native App Development",
+        "to": "/services/pages/react-native-development"
+      },
+      {
+        "image": "/list icon/nodejs_app.svg",
+        "imageInfo": "Custom Software Development",
+        "list": "Custom Software Development",
+        "to": "/services/pages/custom-software-development"
+      },
+      {
+        "image": "/list icon/angular_app.svg",
+        "imageInfo": "Wearable App development",
+        "list": "Wearable App development",
+        "to": "/services/pages/wearable-app-development"
+      }, {
+        "image": "/list icon/nodejs_app.svg",
+        "imageInfo": "Node Js Development",
+        "list": "Node Js Development",
+        "to": "/services/pages/nodejs-development"
+      },
+      {
+        "image": "/list icon/angular_app.svg",
+        "imageInfo": "Angular Development",
+        "list": "Angular Development",
+        "to": "/services/pages/angular-development"
+      },
+      {
+        "image": "/list icon/react_app.svg",
+        "imageInfo": "ReactJS Development",
+        "list": "ReactJS Development",
+        "to": "/services/pages/react-development"
+      },
+      {
+        "image": "/list icon/php_app.svg",
+        "imageInfo": "PHP Development",
+        "list": "PHP Development",
+        "to": "/services/pages/php-development"
+      },
+      {
+        "image": "/list icon/py_app.svg",
+        "imageInfo": "Phaython Development",
+        "list": "Python Development",
+        "to": "/services/pages/python-development"
+      },
+      {
+        "image": "/list icon/asp.net_app.svg",
+        "imageInfo": "ASP.Net Development",
+        "list": "ASP.Net Development",
+        "to": "/services/pages/dotnet-development"
+      },
+      {
+        "image": "/list icon/ecom_app.svg",
+        "imageInfo": "eCommerce Development",
+        "list": "eCommerce Development",
+        "to": "/services/pages/e-commerce"
+      },
+      {
+        "image": "/list icon/laravel_app.svg",
+        "imageInfo": "Laravel Development",
+        "list": "Laravel Development",
+        "to": "/services/pages/laravel-development"
+      },
+      {
+        "image": "/list icon/ci_app.svg",
+        "imageInfo": "Codeigniter Development",
+        "list": "Codeigniter Development",
+        "to": "/services/pages/codeigniter-development"
+      },
+      {
+        "image": "/list icon/pwa_app.svg",
+        "imageInfo": "Progressive Web App Development",
+        "list": "Progressive Web App Development",
+        "to": "/services/pages/pwa-development"
+      },   {
+        "image": "/list icon/menu_arvr.svg",
+        "imageInfo": "AR/VR Development",
+        "list": "AR/VR Development",
+        "to": "/services/pages/arvr-development"
+      },
+      {
+        "image": "/list icon/menu_iot.svg",
+        "imageInfo": "IoT Development",
+        "list": "IoT Development",
+        "to": "/services/pages/iot-development"
+      },
+      {
+        "image": "/list icon/menu_blockchain.svg",
+        "imageInfo": "Blockchain Development",
+        "list": "Blockchain Development",
+        "to": "/services/pages/block-chain"
+      },
+      {
+        "image": "/list icon/menu_cloud.svg",
+        "imageInfo": "Cloud App Development",
+        "list": "Cloud App Development",
+        "to": "/services/pages/cloud-development"
+      },
+      {
+        "image": "/list icon/menu_ai-ml.svg",
+        "imageInfo": "AI/ML development",
+        "list": "AI/ML development",
+        "to": "/services/pages/aiml-development"
+      },      {
+        "image": "/list icon/menu_uiux.svg",
+        "imageInfo": "UI/UX Development",
+        "list": "UI/UX Development",
+        "to": "/services/pages/app-designing"
+      },
+      {
+        "image": "/list icon/menu_smo.svg",
+        "imageInfo": "Search Engine Optimization(SEO)",
+        "list": "Search Engine Optimization(SEO)",
+        "to": "/services/pages/seo"
+      },
+      {
+        "image": "/list icon/menu_seo.svg",
+        "imageInfo": "Social Media Optimization(SMO)",
+        "list": "Social Media Optimization(SMO)",
+        "to": "/services/pages/smo"
+      }
+    ]
+ }

@@ -1,0 +1,13 @@
+.main_header_area .navbar .navbar_supported ul li.dropdown:hover .dropdown-menu,
+  .main_header_area .navbar .navbar_supported ul li.dropdown:focus .dropdown-menu{
+    display: flex;
+  }
+
+.flex-child {
+  width: 50%;
+
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}

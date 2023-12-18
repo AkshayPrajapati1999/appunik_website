@@ -1,0 +1,216 @@
+{
+  "panels": [
+    {
+      "label": "App Development",
+      "value": "1",
+      "icon": "/menu_images/androidMenu.png",
+      "iconinfo": "app development icon",
+      "lists": [
+        {
+          "image": "/list icon/ios_app.svg",
+          "imageInfo": "Ios Development",
+          "list": "Ios Development",
+          "to": "/services/pages/ios-development"
+        },
+        {
+          "image": "/list icon/android.svg",
+          "imageInfo": "Android Development",
+          "list": "Android  Development",
+          "to": "/services/pages/android-development"
+        },
+        {
+          "image": "/list icon/flu_app.svg",
+          "imageInfo": "Flutter Development",
+          "list": "Flutter Development",
+          "to": "/services/pages/flutter-development"
+        },
+        {
+          "image": "/list icon/react_app.svg",
+          "imageInfo": "React-native App Development",
+          "list": "React-native App Development",
+          "to": "/services/pages/react-native-development"
+        },
+        {
+          "image": "/list icon/ionic.svg",
+          "imageInfo": "ionic Development",
+          "list": "Ionic Development",
+          "to": "/services/pages/ionic-development"
+        },
+        {
+          "image": "/list icon/swift.svg",
+          "imageInfo": "Swift development",
+          "list": "Swift Development",
+          "to": "/services/pages/swift-development"
+        },
+        {
+          "image": "/list icon/unity.svg",
+          "imageInfo": "Unity development",
+          "list": "Unity Development",
+          "to": "/services/pages/unity-development"
+        }
+      ]
+    },
+    {
+      "label": "Web Development",
+      "value": "2",
+      "icon": "/menu_images/webMenu.png",
+      "iconinfo": "web development icon",
+      "lists": [
+        {
+          "image": "/list icon/nodejs_app.svg",
+          "imageInfo": "Node Js Development",
+          "list": "Node Js Development",
+          "to": "/services/pages/nodejs-development"
+        },
+        {
+          "image": "/list icon/angular_app.svg",
+          "imageInfo": "Angular Development",
+          "list": "Angular Development",
+          "to": "/services/pages/angular-development"
+        },
+        {
+          "image": "/list icon/react_app.svg",
+          "imageInfo": "ReactJS Development",
+          "list": "ReactJS Development",
+          "to": "/services/pages/react-development"
+        },
+        {
+          "image": "/list icon/php_app.svg",
+          "imageInfo": "PHP Development",
+          "list": "PHP Development",
+          "to": "/services/pages/php-development"
+        },
+        {
+          "image": "/list icon/py_app.svg",
+          "imageInfo": "Phaython Development",
+          "list": "Python Development",
+          "to": "/services/pages/python-development"
+        },
+        {
+          "image": "/list icon/asp.net_app.svg",
+          "imageInfo": "ASP.Net Development",
+          "list": "ASP.Net Development",
+          "to": "/services/pages/dotnet-development"
+        },
+        {
+          "image": "/list icon/ecom_app.svg",
+          "imageInfo": "eCommerce Development",
+          "list": "eCommerce Development",
+          "to": "/services/pages/e-commerce"
+        },
+        {
+          "image": "/list icon/laravel_app.svg",
+          "imageInfo": "Laravel Development",
+          "list": "Laravel Development",
+          "to": "/services/pages/laravel-development"
+        },
+        {
+          "image": "/list icon/ci_app.svg",
+          "imageInfo": "Codeigniter Development",
+          "list": "Codeigniter Development",
+          "to": "/services/pages/codeigniter-development"
+        },
+        {
+          "image": "/list icon/pwa_app.svg",
+          "imageInfo": "Progressive Web App Development",
+          "list": "Progressive Web App Development",
+          "to": "/services/pages/pwa-development"
+        },
+        {
+          "image": "/list icon/Mean.svg",
+          "imageInfo": "Mean Development",
+          "list": "Mean Development",
+          "to": "/services/pages/mean-development"
+        },
+        {
+          "image": "/list icon/mern.svg",
+          "imageInfo": "Mern Development",
+          "list": "Mern Development",
+          "to": "/services/pages/mern-development"
+        },
+        {
+          "image": "/list icon/ruby.svg",
+          "imageInfo": "Ruby Development",
+          "list": "Ruby Development",
+          "to": "/services/pages/ruby-development"
+        },
+        {
+          "image": "/list icon/nest.svg",
+          "imageInfo": "Nest Development",
+          "list": "Nest Development",
+          "to": "/services/pages/nest-development"
+        }
+      ]
+    },
+    {
+      "label": "Digital Transformation",
+      "value": "3",
+      "icon": "/menu_images/Group 102.png",
+      "iconinfo": "digital transformation icon",
+      "lists": [
+        {
+          "image": "/list icon/menu_arvr.svg",
+          "imageInfo": "AR/VR Development",
+          "list": "AR/VR Development",
+          "to": "/services/pages/arvr-development"
+        },
+        {
+          "image": "/list icon/menu_iot.svg",
+          "imageInfo": "IoT Development",
+          "list": "IoT Development",
+          "to": "/services/pages/iot-development"
+        },
+        {
+          "image": "/list icon/menu_blockchain.svg",
+          "imageInfo": "Blockchain Development",
+          "list": "Blockchain Development",
+          "to": "/services/pages/block-chain"
+        },
+        {
+          "image": "/list icon/menu_cloud.svg",
+          "imageInfo": "Cloud App Development",
+          "list": "Cloud App Development",
+          "to": "/services/pages/cloud-development"
+        },
+        {
+          "image": "/list icon/menu_ai-ml.svg",
+          "imageInfo": "AI/ML development",
+          "list": "AI/ML development",
+          "to": "/services/pages/aiml-development"
+        }
+      ]
+    },
+    {
+      "label": "Other Service",
+      "value": "4",
+      "icon": "/menu_images/Group 105.png",
+      "iconinfo": "other service icon",
+      "lists": [
+        {
+          "image": "/list icon/menu_uiux.svg",
+          "imageInfo": "UI/UX Development",
+          "list": "UI/UX Development",
+          "to": "/services/pages/app-designing"
+        },
+        {
+          "image": "/list icon/menu_smo.svg",
+          "imageInfo": "Search Engine Optimization(SEO)",
+          "list": "Search Engine Optimization(SEO)",
+          "to": "/services/pages/seo"
+        },
+        {
+          "image": "/list icon/menu_seo.svg",
+          "imageInfo": "Social Media Optimization(SMO)",
+          "list": "Social Media Optimization(SMO)",
+          "to": "/services/pages/smo"
+        },
+        {
+          "image": "/list icon/quality-assurance.svg",
+          "imageInfo": "Quality Assurance",
+          "list": "Quality Assurance",
+          "to": "/services/pages/qa"
+        }
+      ]
+    }
+  ]
+}

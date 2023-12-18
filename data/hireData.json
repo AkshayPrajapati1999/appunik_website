@@ -1,0 +1,100 @@
+{
+  "hireDataList": {
+    "mobile": [
+      {
+        "image": "/hire icons/HireiOSAppDevelopers.svg",
+        "imageInfo": "ios App Developer",
+        "title": "Hire iOS App Developers",
+        "description": "We have an extensive team of iOS developers for your upcoming iOS project."
+      },
+      {
+        "image": "/hire icons/HireAndroidAppDevelopers.svg",
+        "imageInfo": "Android App Developers",
+        "title": "Hire Android App Developers",
+        "description": "Hire Android Developers for building dynamic user-friendly mobile apps."
+      },
+      {
+        "image": "/hire icons/HireFlutterAppDevelopers.svg",
+        "imageInfo": "Flutter App Developers",
+        "title": "Hire Flutter App Developers",
+        "description": "We have the best flutter team to help you experience best app development."
+      },
+      {
+        "image": "/hire icons/HireReactNativeAppDevelopers.svg",
+        "imageInfo": "React Native App Developers",
+        "title": "Hire React Native App Developers",
+        "description": "Developing cross-platform apps? Hire our expert React-native developers."
+      },
+      {
+        "image": "/hire icons/HireSwiftAppDevelopers.svg",
+        "imageInfo": "Swift App Developers",
+        "title": "Hire Swift App Developers",
+        "description": "Need a better option for developing iOS apps? Connect with our Swift experts."
+      }
+    ],
+    "web": [
+      {
+        "image": "/hire icons/HireLaravelDevelopers.svg",
+        "imageInfo": "Laravel Developers",
+        "title": "Hire Laravel Developers",
+        "description": "Trend your online business with the latest and efficient Laravel web development."
+      },
+      {
+        "image": "/hire icons/HirePHPDevelopers.svg",
+        "imageInfo": "PHP Developers",
+        "title": "Hire PHP Developers",
+        "description": "Build a dynamic yet user-friendly website by trusting PHP website development."
+      },
+      {
+        "image": "/hire icons/HireWebDevelopers.svg",
+        "imageInfo": "Web Developers",
+        "title": "Hire Web Developers",
+        "description": "Hire dedicated Web developers to create the online presence for your dream business."
+      },
+      {
+        "image": "/hire icons/HireWoocommerceDeveloper.svg",
+        "imageInfo": "Woocommerce Developer",
+        "title": "Hire Woocommerce Developer",
+        "description": "Are you turning your retail business into an online e-commerce store? Experienced Woocommerce developers from iCoderz are at your back."
+      },
+      {
+        "image": "/hire icons/HireNodeJSDevelopers.svg",
+        "imageInfo": "NodeJS Developers",
+        "title": "Hire NodeJS Developers",
+        "description": " Hire expert NodeJS developers to power your web and applications with dynamic backend solutions."
+      },
+      {
+        "image": "/hire icons/HireReactJSDeveloper.svg",
+        "imageInfo": "ReactJS Developer",
+        "title": "Hire ReactJS Developer",
+        "description": "Build dynamic and feature-rich web solutions with expert ReactJS developers from iCoderz. Hire Experienced React JS Developers from India to save cost time."
+      },
+      {
+        "image": "/hire icons/HireAngularJSDeveloper.svg",
+        "imageInfo": "AngularJS Developer",
+        "title": "Hire AngularJS Developer",
+        "description": "Hire dedicated AngularJS developers to build custom applications having the most stunning front-end designs."
+      },
+      {
+        "image": "/hire icons/HirePythonDeveloper.svg",
+        "imageInfo": "Python Developer",
+        "title": "Hire Python Developer",
+        "description": "Hire vetted Python programmers to make your aopplications reliable and scalable with powerful backends."
+      }
+    ],
+    "experience": [
+      {
+        "image": "/hire icons/HireUiUxDesigner.svg",
+        "imageInfo": "UI/UX Designer",
+        "title": "Hire UI/UX Designer",
+        "description": "Craft your web and mobile applications with precision detail by hiring dedicated UI/UX designers from India."
+      },
+      {
+        "image": "/hire icons/HireQaEngineers.svg",
+        "imageInfo": "QA Engineers",
+        "title": "QA Engineers",
+        "description": "We offer fast hiring within 24 hours,transparent pricing and clear communication to enhance customer satisfaction."
+      }
+    ]
+  }
+}

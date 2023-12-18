@@ -1,0 +1,71 @@
+.seviceApp_container {
+  margin: 6rem 0;
+  h3 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2c5de4;
+    // color: #ee7455;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin-top: 3rem;
+  }
+  .servicelist_icon_wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+
+    .sevicelist_icon_wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      // justify-content: space-around;
+      align-items: center;
+      flex-basis: 13%;
+      span {
+        word-break: break-word;
+        text-align: center;
+      }
+      img {
+        // width: 6rem;
+        height: 78px;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) and (min-width: 280px) {
+  .seviceApp_container {
+    h3 {
+      text-align: center;
+    }
+    h6 {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .servicelist_icon_wrapper {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      .sevicelist_icon_wrap{
+        &:nth-child(5){
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+  .service_development_container {
+    padding-bottom: 0;
+    .app_count_wrapper {
+      h2 {
+        font: 700 18px/30px "Poppins", sans-serif;
+      }
+    }
+  }
+}

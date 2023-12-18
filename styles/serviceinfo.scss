@@ -1,0 +1,45 @@
+.service_info_container {
+  // margin: 5rem 0;
+  padding: 2rem 0;
+  background: linear-gradient(to right, var(--color) 0%, var(--lightcolor) 51%, var(--color) 100%);
+  // background: radial-gradient(circle at 50% 50%, #2c5de4 0%, #ffffff 150%);
+  // background: linear-gradient(
+  //   180deg,
+  //   hsl(224deg 77% 53%) 1%,
+  //   hsl(225deg 76% 58%) 39%,
+  //   hsl(226deg 74% 63%) 47%,
+  //   hsl(226deg 72% 66%) 50%,
+  //   hsl(225deg 68% 70%) 51%,
+  //   hsl(225deg 63% 73%) 51%,
+  //   hsl(224deg 55% 77%) 50%,
+  //   hsl(225deg 63% 73%) 49%,
+  //   hsl(225deg 68% 70%) 49%,
+  //   hsl(226deg 72% 66%) 50%,
+  //   hsl(226deg 74% 63%) 53%,
+  //   hsl(225deg 76% 58%) 61%,
+  //   hsl(224deg 77% 53%) 99%
+  // );
+  h3 {
+    color: #ffffff;
+    font: 700 30px/55px "Poppins", sans-serif;
+  }
+  p {
+    margin-top: 0.9rem;
+    color: #ffffff;
+  }
+  .row {
+    .image_wrapper {
+      text-align: center;
+    }
+    button {
+      margin-top: 0.8rem;
+      margin-top: 0.8rem;
+      border: 2px solid;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+  }
+}

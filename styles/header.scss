@@ -1,0 +1,332 @@
+.main_header_area {
+  .navbar {
+    .navbar_supported {
+      ul {
+        li.dropdown {
+          .dropdown-menu {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            top: 82%;
+            padding: 1rem 1rem;
+            left: 43%;
+            // width: 100%;
+            
+          }
+          &:hover .dropdown-menu,
+          &:focus .dropdown-menu {
+            display: flex;
+            flex-direction: row;
+            height: 310px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.list_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  // margin: 0rem 3rem;
+  // flex-basis: 70%;
+  .list-item {
+    display: flex;
+    align-items: center;
+    gap: 0.325rem;
+    // flex-basis: 25%;
+    padding: 5px;
+    flex-basis: 33%;
+    height: auto;
+    margin: 10px 0px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    // font-size: 2em;
+    &:hover,
+    &:focus,
+    &.active {
+      color: var(--color);
+      padding-left: 12px;
+      transition: all 300ms linear 0s;
+      -webkit-transition: all 300ms linear 0s;
+      -moz-transition: all 300ms linear 0s;
+      -ms-transition: all 300ms linear 0s;
+      -o-transition: all 300ms linear 0s;
+    }
+
+    img {
+      width: 1.563rem;
+      height: 1.5rem;
+      padding: 0.2rem;
+      border: 0.1rem solid #e7e7e7;
+    }
+
+    .list-title {
+      color: black;
+      font: 400 0.9rem/1.263rem "Poppins", sans-serif;
+    }
+  }
+}
+.MuiTabPanel-root {
+  padding: 0 1.5rem;
+  width: 100%;
+  overflow-y: scroll;
+  // width: 70%;
+  // width: auto;
+}
+
+.MuiTabPanel-root::-webkit-scrollbar-track
+{
+	// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.MuiTabPanel-root::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+.MuiTabPanel-root::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #C0C0C0;
+}
+
+// .dropdown_list {
+//   margin: 0;
+//   padding: 0px 0;
+//   border-radius: 10px;
+//   box-shadow: 0px 0px 18px 0px rgba(222, 222, 222, 0.75);
+//   position: absolute;
+//   top: 100%;
+//   left: -350px;
+//   min-width: 700px;
+//   background-color: #fff;
+//   transition: all 300ms ease-in;
+//   border: none;
+// }
+.MuiTabs-scroller {
+  .MuiButtonBase-root {
+    display: flex;
+    flex-direction: row;
+    width: 290px;
+    justify-content: flex-start;
+    img{
+      margin-right:0.3rem
+    }
+  }
+}
+.list_item_wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.MuiBox-root {
+  .MuiTabs-root {
+    .MuiTabs-scroller {
+      .MuiButtonBase-root {
+        padding-right:0 ;
+      }
+      .MuiTabs-flexContainer {
+        .MuiButtonBase-root {
+          &:hover {
+            background-color: var(--lightcolor);
+            color: #fff;
+          }
+        }
+      }
+      .Mui-selected {
+        color: #ffffff !important;
+        background-color: var(--lightcolor);
+      }
+    }
+  }
+}
+.mobile-view-container {
+  border-bottom: 1px dashed #fff;
+  p {
+    font: 400 16px/60px "Poppins", sans-serif;
+    line-height: 45px;
+    margin: 0 20px;
+    color: #fff;
+  }
+  .dropdown-menu-mobile {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    background: var(--color);
+    color: white;
+    z-index: +111;
+    transition: all 300ms ease-in;
+    transition-delay: 0.5s;
+    overflow-y: scroll; 
+    max-height: 500px; 
+    &::-webkit-scrollbar { 
+      display: none !important;  
+  }
+    span {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.5rem;
+      cursor: pointer;
+      svg {
+        width: 20px !important;
+      }
+    }
+    li {
+      font: 400 1rem/5rem "Poppins", sans-serif;
+      line-height: 45px;
+      padding: 0 20px;
+      color: #fff;
+    }
+    .list-item {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.5rem 1.25rem;
+      border-bottom: 1px dashed #fff;
+      margin-top: 0.5rem;
+      align-items: center;
+      img {
+        border: 0.1rem solid #e7e7e7;
+        padding:5px
+      }
+      a {
+        background-color: transparent;
+        font: 400 1rem/1.263rem "Poppins", sans-serif;
+        color: white;
+        margin: 0;
+        /* display: block; */
+        position: relative;
+        cursor: pointer;
+      }
+    }
+  }
+}
+// @media (max-width: 768px) {
+//   .navbar_supported .dropdown-menu:before {
+//     right: 15px; /* Adjusted position for smaller screens */
+//   }
+// }
+@media screen and (max-width: 580px) {
+  .MuiBox-root {
+    .MuiTabs-root {
+      margin-right: 0;
+      margin-bottom: 0;
+      .MuiTabs-scroller {
+        .MuiTabs-flexContainer {
+          flex-direction: column;
+          .MuiButtonBase-root {
+            color: #fff;
+            gap: 0.5rem;
+            align-items: center;
+            width: auto;
+            margin-bottom: 0;
+            button {
+              flex-basis: 25%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .MuiTabPanel-root {
+    width: 100%;
+  }
+  .Mui-selected {
+    color: white !important;
+  }
+
+  .list_container {
+    padding: 0;
+
+    .list-item {
+      flex-basis: 100%;
+      margin: 0;
+      .list-title {
+        color: white;
+      }
+    }
+  }
+  .main_header_area {
+    .navbar {
+      .navbar_supported {
+        ul {
+          li.dropdown {
+            a {
+              font: 400 12px/9px "Poppins", sans-serif !important;
+              margin-top: 0.2rem;
+            }
+            &:hover .dropdown-menu,
+            &:focus .dropdown-menu {
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .Mui-selected {
+    color: #2c5de4 !important;
+  }
+}
+
+
+// @media screen and (min-width: 988px) and (max-width: 1068px) {
+//   .dropdown-menu {
+
+//     &:before {
+
+//       right: 53px;
+
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 1069px) and (max-width: 1164px) {
+//   .dropdown-menu {
+
+//     &:before {
+   
+//       right: 56px;
+
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 1171px) and (max-width: 1272px) {
+//   .dropdown-menu {
+
+//     &:before {
+ 
+//       right: 59px;
+      
+//     }
+//   }
+// }
+// @media screen and (min-width: 1288px) and (max-width: 1387px) {
+//   .dropdown-menu {
+
+//     &:before {
+ 
+//       right: 25px;
+      
+//     }
+//   }
+// }
+// @media screen and (min-width: 1388px) and (max-width: 1487px) {
+//   .dropdown-menu {
+
+//     &:before {
+ 
+//       right: 25px;
+      
+//     }
+//   }
+// }
