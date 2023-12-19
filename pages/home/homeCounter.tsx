@@ -42,7 +42,8 @@ function HomeCounter() {
         data-aos-easing="ease-out-quart"
         data-aos-once="false"
       >
-        <div className="container">
+        {/* Web Screen Start*/}
+        <div className="container web_screen">
           <div className="row countarup_area">
             <div className="col-6 col-lg-4">
               <div className="counter_item wow zoomIn">
@@ -137,6 +138,84 @@ function HomeCounter() {
             <div className="offset-2"></div>
           </div>
         </div>
+        {/* Web Screen End */}
+
+        {/* Mobile Screen Start */}
+        <div className="container mobile_screen">
+          <div className="Row countarup_area">
+            <div className="Column">
+              <div className="counter_item wow zoomIn">
+                <div className="text-center">
+                  <h2>
+                    <span className="counter">
+                      <CountUp start={0} end={40} />
+                      &#43;
+                    </span>
+                  </h2>
+                  <h4>No. of Projects</h4>
+                </div>
+              </div>
+            </div>
+
+            <div className="Column">
+              <div className="counter_item">
+                <div className="text-center">
+                  <h2>
+                    <span className="counter">
+                      <CountUp start={0} end={35} />
+                      &#43;
+                    </span>
+                  </h2>
+                  <h4>Our Team</h4>
+                </div>
+              </div>
+            </div>
+
+            <div className="Column">
+              <div className="counter_item">
+                <div className="text-center">
+                  <h2>
+                    <span className="counter">
+                      <CountUp start={0} end={20} />
+                      &#43;
+                    </span>
+                  </h2>
+                  <h4>Happy Clients</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Row countarup_area">
+            <div className="offset-2"></div>
+            <div className="Column">
+              <div className="counter_item">
+                <div className="text-center">
+                  <h2 className="counter">
+                    <CountUp start={0} end={450} />
+                    &#43;
+                  </h2>
+                  <h4>Cups of Coffee</h4>
+                </div>
+              </div>
+            </div>
+
+            <div className="Column">
+              <div className="counter_item">
+                <div className="text-center">
+                  <h2>
+                    <span className="counter">
+                      <CountUp start={0} end={5} />
+                      &#43;
+                    </span>
+                  </h2>
+                  <h4>Years Of Experience</h4>
+                </div>
+              </div>
+            </div>
+            <div className="offset-2"></div>
+          </div>
+        </div>
+        {/* Mobile Screen End */}
       </div>
     </section>
   );

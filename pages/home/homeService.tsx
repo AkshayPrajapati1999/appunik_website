@@ -36,10 +36,12 @@ function HomeService() {
                   alt="mobile development icon"
                 />
                 <span></span>
+                <div>
+                  <Link href="/services/pages/app-development">
+                    Mobile App Development
+                  </Link>
+                </div>
               </div>
-              <Link href="/services/pages/app-development">
-                Mobile App Development
-              </Link>
               <p>
                 Top-tier mobile app development, dedicated team—realize your
                 business goals with our expertise.
@@ -55,8 +57,10 @@ function HomeService() {
                   className="icon_2"
                 />
                 <span></span>
+                <div>
+                  <Link href="/">Website Development</Link>
+                </div>
               </div>
-              <Link href="/">Website Development</Link>
               <p>
                 Experts in diverse web development—tailored or standard, we
                 deliver exceptional, custom solutions.
@@ -72,8 +76,10 @@ function HomeService() {
                   className="icon_3"
                 />
                 <span className="icon3_span"></span>
+                <div className="design_page">
+                  <Link href="/">UI/UX Design</Link>
+                </div>
               </div>
-              <Link href="/">UI/UX Design</Link>
               <p>
                 We excel in designing captivating UI/UX, boosting business
                 impact. Rely on us for an enhanced online presence.
