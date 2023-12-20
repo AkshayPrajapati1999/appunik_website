@@ -32,7 +32,7 @@ function ProjectSlider(props: { projects: IProjects[] }) {
               data-aos="zoom-out-up"
               // data-aos-offset="150"
               data-aos-easing="ease-out-quart"
-              data-aos-once="false" data-aos-anchor-placement="top-center"
+              // data-aos-once="false" data-aos-anchor-placement="top-center"
             >
               <div
                 className="col-lg-6"

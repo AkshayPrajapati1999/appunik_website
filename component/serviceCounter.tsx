@@ -10,7 +10,8 @@ export default function ServiceCounter({ counters }: serviceProps) {
     <div     data-aos="zoom-out-up"
     // data-aos-offset="150"
     data-aos-easing="ease-out-quart"
-    data-aos-once="false" data-aos-anchor-placement="top-center">
+    // data-aos-once="false" data-aos-anchor-placement="top-center"
+    >
       {counters &&
         counters.map((count: any, index: number) => {
           return (

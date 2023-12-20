@@ -16,7 +16,8 @@ function CareerOpning({ careers }: CareerProps) {
     <section className="career_area pa_3 "  data-aos="zoom-out-up"
     // data-aos-offset="150"
     data-aos-easing="ease-out-quart"
-    data-aos-once="false" data-aos-anchor-placement="top-center">
+    // data-aos-once="false" data-aos-anchor-placement="top-center"
+    >
       <div className="container">
         {careers && careers.map((career: ICareerWorks, index: number) => {
           return (

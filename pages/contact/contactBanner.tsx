@@ -9,7 +9,7 @@ import img2 from "../../images/illustations/Contact.png";
  data-aos="zoom-out-up"
     // data-aos-offset="150"
     data-aos-easing="ease-out-quart"
-    data-aos-once="false" data-aos-anchor-placement="top-center"
+    // data-aos-once="false" data-aos-anchor-placement="top-center"
     >
       <div className="container">
         <div className="row">
